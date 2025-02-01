@@ -1,0 +1,24 @@
+langchain - ai web application relationships toiri kore .
+AI -> data analyst , data science, llm, ml , prompt 
+openAI -> api key .
+virtual environment setup ==>
+{python -m venv myenv
+source myenv/Scripts/activate
+deactivate }
+langchain - setup
+
+python package check ===> pip freeze
+
+pip install langchain
+
+# to hide api key use python decouple 
+to use import config from decouple
+pip install python-decouple
+
+to use openAI install==> pip install langchain-openai
+
+# huggingface free api "mistral" to setup hosted version
+repo id ==> mistralai/Mistral-7B-Instruct-v0.3
+setup hugging face pip install langchain-huggingface
+then import inferenceclient from huggingface_hub
+then create an object using inferenceclient, with that object call textgeneration()function to generate response
