@@ -14,3 +14,5 @@ Django startup:
     django-admin startproject ProjactName
 
 setting.py==> er vitore project er sob kichu setup thake, jemon stattic file, database, application er apps gula, templates thake, security related onk kichu thake, hosting related settings.
+
+to run dJango project: python manage.py runserver
