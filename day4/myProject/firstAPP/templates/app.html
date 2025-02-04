@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Inside app.</h1>
+
+    <!-- <p>{{lst}}</p> -->
+    <!-- <p>{{str1}}</p>
+    <p>{{str2}}</p>
+    <p>{{str3}}</p> -->
+
+    <!-- {% for num in lst %}
+    <h1>{{num}}</h1>
+    {% endfor %} -->
+
+    <!-- {% for num in lst %}
+    {% if num > 5 %}
+    <h1>{{num}}</h1>
+    {% elif num != 0 %}
+    <h1>{{num}}</h1>
+    {% else %}
+    <h1>Zero</h1>
+    {% endif %}
+
+    {% endfor %} -->
+
+    {% comment %}
+    <h1>This is a comment</h1>
+    {% endcomment %}
+
+    <!-- dJango filters -->
+    <p>{{str1 |length}}</p>
+    <p>{{str1 |capfirst}}</p>
+    <p>{{str2 |lower|capfirst}}</p>
+    <p>{{str3 |capfirst}}</p>
+    <p>{{str3 |truncatewords:2}}</p>
+    <p>{{str2 |truncatechars:3}}</p>
+    
+  </body>
+</html>
