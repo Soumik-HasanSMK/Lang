@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+{%load static%}
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{%static 'css/style.css'%}" />
     <title>Document</title>
   </head>
   <body>
@@ -28,17 +30,25 @@
 
     {% endfor %} -->
 
-    {% comment %}
+    <!-- {% comment %}
     <h1>This is a comment</h1>
-    {% endcomment %}
+    {% endcomment %} -->
 
     <!-- dJango filters -->
-    <p>{{str1 |length}}</p>
+    <!-- <p>{{str1 |length}}</p>
     <p>{{str1 |capfirst}}</p>
     <p>{{str2 |lower|capfirst}}</p>
     <p>{{str3 |capfirst}}</p>
     <p>{{str3 |truncatewords:2}}</p>
-    <p>{{str2 |truncatechars:3}}</p>
-    
+    <p>{{str2 |truncatechars:3}}</p> -->
+
+    <img src="{%static 'image/image.png'%}" alt="" />
+    <button onclick="spam()">smk</button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptas
+      ratione minus soluta, velit atque! Vero, quidem delectus. Voluptatibus,
+      ex?
+    </p>
+    <script src="{%static 'js/app.js'%}"></script>
   </body>
 </html>
