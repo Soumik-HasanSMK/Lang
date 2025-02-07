@@ -21,4 +21,5 @@ to use openAI install==> pip install langchain-openai
 repo id ==> mistralai/Mistral-7B-Instruct-v0.3
 setup hugging face pip install langchain-huggingface
 then import inferenceclient from huggingface_hub
-then create an object using inferenceclient, with that object call textgeneration()function to generate response
+then create an object using inferenceclient, with that object call textgeneration()function to generate response.
+

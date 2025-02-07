@@ -43,3 +43,4 @@ app er fetures :
 
 apps ekber install kore nile app er vitor er templates static file alada kore initialize kora lage na
 
+django templates inhertence tends to follow DRY(don't repeat yourself) methodology.
